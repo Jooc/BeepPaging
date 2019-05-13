@@ -15,7 +15,7 @@ class MomentsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.rowHeight = UITableView.automaticDimension
         
         readJson()
 
@@ -25,7 +25,6 @@ class MomentsTableViewController: UITableViewController {
 
         tableView.register(UINib.init(nibName: "SingleMomentTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "SingleMomentCell")
         
-//        tableView.register(SingleMomentTableViewCell.self, forCellReuseIdentifier: "SingleMomentCell")
     }
 
     func readJson() ->  Void{
@@ -51,8 +50,8 @@ class MomentsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if section == 0 {return 1}
+            
         else {return jsonData["moments"].count}
-        
     }
     
 //    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -86,6 +85,8 @@ class MomentsTableViewController: UITableViewController {
         }else{
             
             let cell = tableView.dequeueReusableCell(withIdentifier: "SingleMomentCell", for: indexPath) as! SingleMomentTableViewCell
+            
+            cell.reloadData(with: jsonData["moments"][indexPath.row])
             
             return cell
         }
