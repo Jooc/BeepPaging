@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BeepPaging.xcodeproj">
+      location = "group:../SupportingFiles/res/imgs/avata_0.png">
+   </FileRef>
+   <FileRef
+      location = "group:../SupportingFiles/res/imgs/avatar_1.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:../SupportingFiles/res/imgs/wall_paper.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

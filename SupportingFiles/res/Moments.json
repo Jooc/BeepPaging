@@ -1,0 +1,61 @@
+{
+    "hostName": "Nico",
+    "avatar": "avatar_0",
+    "wallPaper": "./img/wall_paper.jpg",
+    "moments": [
+        {
+            "friendName": "Robbin",
+            "friendAvatar": "avatar_1",
+            "content": "Boy next door",
+            "imgs": ["content"]
+        },
+        {
+            "friendName": "Natalie",
+            "friendAvatar": "avatar_1",
+            "content": "今日成语课堂：奔走concall",
+            "imgs": ["content","content",]
+        },
+        {
+            "friendName": "ZeuS大魔王",
+            "friendAvatar": "avatar_1",
+            "content": "生无可恋.jpg",
+            "imgs": []
+        },
+        {
+            "friendName": "Jason",
+            "friendAvatar": "avatar_1",
+            "content": "为Jacky打Call",
+            "imgs": ["content","content","content","content","content","content","content","content","content",]
+        },
+        {
+            "friendName": "Ide3cimi",
+            "friendAvatar": "avatar_1",
+            "content": "沉不住气就会错过很多",
+            "imgs": []
+        },
+        {
+            "friendName": "初初初",
+            "friendAvatar": "avatar_1",
+            "content": "现在的小朋友这么热情的吗🤦‍♂️\n场面一度失控\n感觉要hold不住了😂",
+            "imgs": ["content","content",]
+        },
+        {
+            "friendName": "wangyue996996",
+            "friendAvatar": "avatar_1",
+            "content": "5.17 上午8点 体育馆生涯体验日",
+            "imgs": ["content",]
+        },
+        {
+            "friendName": "平凡的世界",
+            "friendAvatar": "avatar_1",
+            "content": "知道了，这就去报名",
+            "imgs": ["content","content","content",]
+        },
+        {
+            "friendName": "shanran335741",
+            "friendAvatar": "avatar_1",
+            "content": "燃🔥",
+            "imgs": ["content","content","content",]
+        },
+    ]
+}

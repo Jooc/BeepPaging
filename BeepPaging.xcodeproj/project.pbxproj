@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F108EAD82282816E008D665B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108EAD52282816E008D665B /* SwiftyJSON.swift */; };
+		F108EAE32282F453008D665B /* SharerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108EAE22282F453008D665B /* SharerViewController.swift */; };
+		F108EAE7228321AA008D665B /* MomentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108EAE6228321AA008D665B /* MomentsTableViewController.swift */; };
+		F10F432D22892F7F00382C73 /* SingleMomentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F432B22892F7F00382C73 /* SingleMomentTableViewCell.swift */; };
+		F10F432E22892F7F00382C73 /* SingleMomentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10F432C22892F7F00382C73 /* SingleMomentTableViewCell.xib */; };
 		F13D4A6B22797AC90042CD63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D4A6A22797AC90042CD63 /* AppDelegate.swift */; };
 		F13D4A6D22797AC90042CD63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D4A6C22797AC90042CD63 /* ViewController.swift */; };
 		F13D4A7022797AC90042CD63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13D4A6E22797AC90042CD63 /* Main.storyboard */; };
 		F13D4A7222797ACB0042CD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13D4A7122797ACB0042CD63 /* Assets.xcassets */; };
 		F13D4A7522797ACB0042CD63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13D4A7322797ACB0042CD63 /* LaunchScreen.storyboard */; };
+		F16FB401227FDEE900F6781D /* Moments.json in Sources */ = {isa = PBXBuildFile; fileRef = F16FB400227FDEE900F6781D /* Moments.json */; };
+		F1A144032283CD8700503E0F /* Moments.json in Resources */ = {isa = PBXBuildFile; fileRef = F16FB400227FDEE900F6781D /* Moments.json */; };
+		F1A144062285D2D300503E0F /* avatar_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A144042285D2D300503E0F /* avatar_1.jpg */; };
+		F1A144072285D2D300503E0F /* content.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A144052285D2D300503E0F /* content.jpg */; };
+		F1A1440C22866C0B00503E0F /* avatar_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A1440A2285E6B400503E0F /* avatar_0.jpg */; };
+		F1A900C12280A1220089DBFF /* wall_paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A900C02280A1220089DBFF /* wall_paper.jpg */; };
+		F1A900C722812A7F0089DBFF /* InfoSharer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A900C622812A7F0089DBFF /* InfoSharer.swift */; };
+		F1E2F161227C2026003AFB01 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2F15E227C2026003AFB01 /* libWeChatSDK.a */; };
+		F1E2F167227C21CC003AFB01 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2F166227C21CC003AFB01 /* libz.tbd */; };
+		F1E2F169227C21DC003AFB01 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2F168227C21DC003AFB01 /* libsqlite3.0.tbd */; };
+		F1E2F16B227C21E9003AFB01 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2F16A227C21E9003AFB01 /* libc++.tbd */; };
+		F1E2F16D227C21F9003AFB01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2F16C227C21F9003AFB01 /* SystemConfiguration.framework */; };
+		F1E2F16F227C2211003AFB01 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2F16E227C2211003AFB01 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F108EAD52282816E008D665B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F108EAE22282F453008D665B /* SharerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharerViewController.swift; sourceTree = "<group>"; };
+		F108EAE6228321AA008D665B /* MomentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsTableViewController.swift; sourceTree = "<group>"; };
+		F10F432B22892F7F00382C73 /* SingleMomentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMomentTableViewCell.swift; sourceTree = "<group>"; };
+		F10F432C22892F7F00382C73 /* SingleMomentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleMomentTableViewCell.xib; sourceTree = "<group>"; };
 		F13D4A6722797AC90042CD63 /* BeepPaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeepPaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13D4A6A22797AC90042CD63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13D4A6C22797AC90042CD63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,21 @@
 		F13D4A7122797ACB0042CD63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13D4A7422797ACB0042CD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13D4A7622797ACB0042CD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16FB400227FDEE900F6781D /* Moments.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Moments.json; sourceTree = "<group>"; };
+		F1A144042285D2D300503E0F /* avatar_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar_1.jpg; sourceTree = "<group>"; };
+		F1A144052285D2D300503E0F /* content.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = content.jpg; sourceTree = "<group>"; };
+		F1A1440A2285E6B400503E0F /* avatar_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar_0.jpg; sourceTree = "<group>"; };
+		F1A900C02280A1220089DBFF /* wall_paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall_paper.jpg; sourceTree = "<group>"; };
+		F1A900C622812A7F0089DBFF /* InfoSharer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSharer.swift; sourceTree = "<group>"; };
+		F1E2F15E227C2026003AFB01 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		F1E2F15F227C2026003AFB01 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		F1E2F160227C2026003AFB01 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F1E2F164227C2161003AFB01 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		F1E2F166227C21CC003AFB01 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F1E2F168227C21DC003AFB01 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F1E2F16A227C21E9003AFB01 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F1E2F16C227C21F9003AFB01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F1E2F16E227C2211003AFB01 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E2F16F227C2211003AFB01 /* CoreTelephony.framework in Frameworks */,
+				F1E2F16D227C21F9003AFB01 /* SystemConfiguration.framework in Frameworks */,
+				F1E2F16B227C21E9003AFB01 /* libc++.tbd in Frameworks */,
+				F1E2F169227C21DC003AFB01 /* libsqlite3.0.tbd in Frameworks */,
+				F1E2F167227C21CC003AFB01 /* libz.tbd in Frameworks */,
+				F1E2F161227C2026003AFB01 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				F13D4A6922797AC90042CD63 /* BeepPaging */,
+				F1E2F163227C2050003AFB01 /* SupportingFiles */,
 				F13D4A6822797AC90042CD63 /* Products */,
+				F1E2F165227C21CB003AFB01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,72 @@
 		F13D4A6922797AC90042CD63 /* BeepPaging */ = {
 			isa = PBXGroup;
 			children = (
+				F1E2F162227C202F003AFB01 /* WechatSDK */,
 				F13D4A6A22797AC90042CD63 /* AppDelegate.swift */,
 				F13D4A6C22797AC90042CD63 /* ViewController.swift */,
 				F13D4A6E22797AC90042CD63 /* Main.storyboard */,
-				F13D4A7122797ACB0042CD63 /* Assets.xcassets */,
-				F13D4A7322797ACB0042CD63 /* LaunchScreen.storyboard */,
 				F13D4A7622797ACB0042CD63 /* Info.plist */,
+				F1E2F164227C2161003AFB01 /* Bridge.h */,
+				F1A900C622812A7F0089DBFF /* InfoSharer.swift */,
+				F108EAE22282F453008D665B /* SharerViewController.swift */,
+				F108EAD52282816E008D665B /* SwiftyJSON.swift */,
+				F108EAE6228321AA008D665B /* MomentsTableViewController.swift */,
+				F10F432B22892F7F00382C73 /* SingleMomentTableViewCell.swift */,
+				F10F432C22892F7F00382C73 /* SingleMomentTableViewCell.xib */,
 			);
 			path = BeepPaging;
+			sourceTree = "<group>";
+		};
+		F16FB402227FDF0C00F6781D /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F16FB400227FDEE900F6781D /* Moments.json */,
+				F1A900C2228123100089DBFF /* imgs */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		F1A900C2228123100089DBFF /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				F1A1440A2285E6B400503E0F /* avatar_0.jpg */,
+				F1A144042285D2D300503E0F /* avatar_1.jpg */,
+				F1A144052285D2D300503E0F /* content.jpg */,
+				F1A900C02280A1220089DBFF /* wall_paper.jpg */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		F1E2F162227C202F003AFB01 /* WechatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2F15E227C2026003AFB01 /* libWeChatSDK.a */,
+				F1E2F15F227C2026003AFB01 /* WXApi.h */,
+				F1E2F160227C2026003AFB01 /* WXApiObject.h */,
+			);
+			path = WechatSDK;
+			sourceTree = "<group>";
+		};
+		F1E2F163227C2050003AFB01 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F16FB402227FDF0C00F6781D /* res */,
+				F13D4A7122797ACB0042CD63 /* Assets.xcassets */,
+				F13D4A7322797ACB0042CD63 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F1E2F165227C21CB003AFB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2F16E227C2211003AFB01 /* CoreTelephony.framework */,
+				F1E2F16C227C21F9003AFB01 /* SystemConfiguration.framework */,
+				F1E2F16A227C21E9003AFB01 /* libc++.tbd */,
+				F1E2F168227C21DC003AFB01 /* libsqlite3.0.tbd */,
+				F1E2F166227C21CC003AFB01 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +226,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A1440C22866C0B00503E0F /* avatar_0.jpg in Resources */,
+				F1A144062285D2D300503E0F /* avatar_1.jpg in Resources */,
+				F1A144032283CD8700503E0F /* Moments.json in Resources */,
 				F13D4A7522797ACB0042CD63 /* LaunchScreen.storyboard in Resources */,
+				F1A900C12280A1220089DBFF /* wall_paper.jpg in Resources */,
 				F13D4A7222797ACB0042CD63 /* Assets.xcassets in Resources */,
+				F1A144072285D2D300503E0F /* content.jpg in Resources */,
 				F13D4A7022797AC90042CD63 /* Main.storyboard in Resources */,
+				F10F432E22892F7F00382C73 /* SingleMomentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A900C722812A7F0089DBFF /* InfoSharer.swift in Sources */,
+				F108EAE32282F453008D665B /* SharerViewController.swift in Sources */,
 				F13D4A6D22797AC90042CD63 /* ViewController.swift in Sources */,
+				F108EAD82282816E008D665B /* SwiftyJSON.swift in Sources */,
 				F13D4A6B22797AC90042CD63 /* AppDelegate.swift in Sources */,
+				F108EAE7228321AA008D665B /* MomentsTableViewController.swift in Sources */,
+				F16FB401227FDEE900F6781D /* Moments.json in Sources */,
+				F10F432D22892F7F00382C73 /* SingleMomentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +405,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/BeepPaging/WechatSDK";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jooc.BeepPaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BeepPaging/Bridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -307,10 +430,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/BeepPaging/WechatSDK";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jooc.BeepPaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BeepPaging/Bridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

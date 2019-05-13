@@ -9,14 +9,45 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, WXApiDelegate {
 
     var window: UIWindow?
+    
+    let WXAppID = "wx6e86827abc1bc2db"
+    let WXAppSecret = "aab36f502d62e287d523698c30986dfe"
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        WXApi.registerApp("wx6e86827abc1bc2db")
+        
         return true
+    }
+    
+    //重写openURL
+    func application(_ app: UIApplication, open url: URL,
+                     options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return WXApi.handleOpen(url, delegate: self)
+    }
+    
+    //微信分享完毕后的回调（只有使用真实的AppID才能收到响应）
+    func onResp(_ resp: BaseResp) {
+        if resp.isKind(of: SendMessageToWXResp.self) {//确保是对我们分享操作的回调
+            if resp.errCode == WXSuccess.rawValue{//分享成功
+                print("分享成功")
+            }else if resp.errCode == WXErrCodeCommon.rawValue {//普通错误类型
+                print("分享失败：普通错误类型")
+            }else if resp.errCode == WXErrCodeUserCancel.rawValue {//用户点击取消并返回
+                print("分享失败：用户点击取消并返回")
+            }else if resp.errCode == WXErrCodeSentFail.rawValue {//发送失败
+                print("分享失败：发送失败")
+            }else if resp.errCode == WXErrCodeAuthDeny.rawValue {//授权失败
+                print("分享失败：授权失败")
+            }else if resp.errCode == WXErrCodeUnsupport.rawValue {//微信不支持
+                print("分享失败：微信不支持")
+            }
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
